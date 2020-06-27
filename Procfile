@@ -1,1 +1,1 @@
-web: java -jar $APPJAR
+web: java -Dspring.profiles.active=production -jar $APPJAR
